@@ -1,10 +1,10 @@
-const express = require("express");
-const bodyParser = require('body-parser');
-const path = require("path");
-const cons = require('consolidate');
-const dust = require('dustjs-helpers');
-const pg = require('pg');
-const app = express();
+var express = require('express'),
+    path = require('path'),
+    bodyParser = require('body-parser'),
+    cons = require('consolidate'),
+    dust = require('dustjs-helpers'),
+    pg = require('pg'),
+    app = express();
 
 //Will add this when database is created. 
 // const connect = "postgres://username:password@localhost/database";
@@ -24,10 +24,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 
 app.get('/', function(req, res){
-    console.log("Test");
+res.render("index")
 });
 
 //Server
-app.listen(5000, function(){
-    console.log('Server Stated on Port 5000');
+app.listen(3000, function(){
+    console.log('Server Stated on Port 3000');
 });
