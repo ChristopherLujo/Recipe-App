@@ -1,0 +1,12 @@
+{
+    "name": "Postal Rate Calculator",
+    "description": "A Postal Rate Calculator",
+    "respository": "https://git.heroku.com/pure-escarpment-61427.git",
+    "logo": "",
+    "keywords":  [
+        "node",
+        "express",
+        "heroku"
+    ],
+    "image": "heroku/node.js"
+}
