@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/boiling-retreat-78023.git"
+    "url": " https://git.heroku.com/young-mesa-68858.git"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,6 @@
     "dustjs-helpers": "*",
     "dustjs-linkedin": "*",
     "express": "*",
-    "pg": "*"
+    "pg": "^6.1.2"
   }
 }
